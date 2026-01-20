@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./public/Desktop & Tablet.png" alt="Logo" class="header-logo">
+            <div class="header-search">
+                <input type="text" class="header-input" placeholder="Введите город">
+                <button class="header-button"></button>
+            </div>
+        </header>
+        <main class="main">
+            <div class="left-bar">
+                <p class="city">Москва</p>
+                <p class="date">Суббота, 06 января</p>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather" class="weatherImg">
+                <p class="temp">-7°</p>
+                <div class="details">
+                    <div class="humidity details-info">
+                        <img src="./humidity-svgrepo-com.svg" alt="humidity" class="humidityImg img">
+                        <div class="info-bar">
+                            <div class="humidityInfo">99</div>
+                            <span>Humidity</span>
+                        </div>
+                    </div>
+                    <div class="wind details-info">
+                        <img src="./wind-svgrepo-com.svg" alt="windSpeed" class="windImg img">
+                        <div class="info-bar">
+                            <p class="windSpeed">3</p>
+                            <span>Wind speed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="styles.js" defer type="module"></script>
+</body>
+</html>
